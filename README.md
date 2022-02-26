@@ -23,5 +23,6 @@ includes links to:
 ___
 
 ## design patterns
+[design_patterns/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/design_patterns/README.md)
 
 will include links to useful documents and tutorials for structuring your code/programs/systems to be robust, scalable and production ready
