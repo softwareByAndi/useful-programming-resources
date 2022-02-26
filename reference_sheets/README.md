@@ -6,7 +6,7 @@ ___
 
 [devhints.io](https://devhints.io/)  
 [frontendcheatsheets.com](https://www.frontendcheatsheets.com/)  
-[softwareByAndi/userful-programming-resources](https://github.com/softwareByAndi/useful-programming-resources)  
+[softwareByAndi/useful-programming-resources](https://github.com/softwareByAndi/useful-programming-resources)  
 [svelte tutorial](https://svelte.dev/tutorial/basics)  
 [svelte docs](https://svelte.dev/docs)  
 [tailwindcss](https://tailwindcss.com/)  
