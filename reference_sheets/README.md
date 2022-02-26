@@ -1,4 +1,9 @@
-# websites  
+# links to useful programming reference sheets and websites
+
+___
+
+## useful websites  
+
 [devhints.io](https://devhints.io/)  
 [frontendcheatsheets.com](https://www.frontendcheatsheets.com/)  
 [softwareByAndi/userful-programming-resources](https://github.com/softwareByAndi/useful-programming-resources)  
@@ -7,7 +12,10 @@
 [tailwindcss](https://tailwindcss.com/)  
 [pythoncheatsheet.org](https://pythoncheatsheet.org)
 
-# links to subject specific cheatsheets  
+___
+
+## subject specific reference sheets  
+
 ### html5  
 [html5 -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/html5.pdf)  
 [html5 -- shecodes.com](https://www.frontendcheatsheets.com/html)  
