@@ -10,7 +10,6 @@ ___
 [svelte tutorial](https://svelte.dev/tutorial/basics)  
 [svelte docs](https://svelte.dev/docs)  
 [tailwindcss](https://tailwindcss.com/)  
-[pythoncheatsheet.org](https://pythoncheatsheet.org)
 
 ___
 
