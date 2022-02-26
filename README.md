@@ -25,4 +25,11 @@ ___
 ## design patterns
 [design_patterns/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/design_patterns/README.md)
 
-will include links to useful documents and tutorials for structuring your code/programs/systems to be robust, scalable and production ready
+includes links to useful documents and tutorials for structuring your code/programs/systems to be robust, scalable and production ready
+
+___
+
+## tricky concepts
+[tricky_concepts/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/tricky_concepts/README.md)
+
+will include links to useful documents and tutorials for tricky &/or confusing concepts
