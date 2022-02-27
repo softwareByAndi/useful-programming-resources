@@ -18,6 +18,9 @@ ___
 ### vscode
 [vscode shortcuts -- devhints.io](https://devhints.io/vscode)
 
+### terminals
+[powershell download for windows users](https://docs.microsoft.com/en-us/powershell/)
+
 ### html5  
 [html5 -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/html5.pdf)  
 [html5 -- shecodes.com](https://www.frontendcheatsheets.com/html)  
