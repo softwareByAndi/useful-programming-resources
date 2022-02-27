@@ -26,6 +26,8 @@ ___
 [html best practices -- kinsta.com](https://kinsta.com/blog/html-best-practices/)
 
 ### css  
+[material icons](https://fonts.google.com/icons?selected=Material+Icons)
+
 [css -- shecodes.com](https://www.frontendcheatsheets.com/css)  
 
 [css-flexbox -- devhints.io](https://devhints.io/css-flexbox)  
