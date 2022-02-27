@@ -11,6 +11,7 @@ ___
 [svelte docs](https://svelte.dev/docs)  
 [tailwindcss](https://tailwindcss.com/)  
 
+[books and notes for professionals](https://books.goalkicker.com/)
 ___
 
 ## subject specific reference sheets  
