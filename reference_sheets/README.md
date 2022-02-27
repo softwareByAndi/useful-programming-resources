@@ -47,6 +47,7 @@ ___
 ### javascript  
 [javascript -- shecodes.com](https://www.frontendcheatsheets.com/javascript)  
 [lazy javascript shortcuts -- devhints.io](https://devhints.io/js-lazy)  
+
 [download Node.js / npm -- nodejs.org](https://nodejs.org/en/download/)  
 [npm -- devhints.io](https://devhints.io/npm)  
 [nvm (node version manager) -- cybertooth.io](https://cybertooth.io/blog/2017/07/13/nvm-cheat-sheet.html)  
