@@ -39,11 +39,15 @@ ___
 ### javascript  
 [javascript -- shecodes.com](https://www.frontendcheatsheets.com/javascript)  
 [lazy javascript shortcuts -- devhints.io](https://devhints.io/js-lazy)  
+[download Node.js / npm -- nodejs.org](https://nodejs.org/en/download/)  
+[npm -- devhints.io](https://devhints.io/npm)  
+[nvm (node version manager) -- cybertooth.io](https://cybertooth.io/blog/2017/07/13/nvm-cheat-sheet.html)  
 
 ### python  
 [python -- devhints.io](https://devhints.io/python)  
 [numpy -- pdf](http://datacamp-community-prod.s3.amazonaws.com/ba1fe95a-8b70-4d2f-95b0-bc954e9071b0)  
-[pandas -- pdf](http://datacamp-community-prod.s3.amazonaws.com/f04456d7-8e61-482f-9cc9-da6f7f25fc9b)
+[pandas -- pdf](http://datacamp-community-prod.s3.amazonaws.com/f04456d7-8e61-482f-9cc9-da6f7f25fc9b)  
+[pip -- opensource.com](https://opensource.com/sites/default/files/gated-content/cheat_sheet_pip.pdf)  
 
 ### bash  
 [bash -- devhints.io](https://devhints.io/bash)  
