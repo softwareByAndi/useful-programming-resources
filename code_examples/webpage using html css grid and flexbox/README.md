@@ -4,7 +4,7 @@
 <br>
 
 # Notes:
-- fox.png is not my image. I stole it from ['blue fox on Muro' by doddlefurr - deviantart.com](https://www.deviantart.com/doddlefur/art/blue-fox-on-Muro-302282804)
+- [`fox.png`](https://github.com/softwareByAndi/useful-programming-resources/blob/main/code_examples/webpage%20using%20html%20css%20grid%20and%20flexbox/fox.png) is not my image. I stole it from ['blue fox on Muro' by doddlefurr - deviantart.com](https://www.deviantart.com/doddlefur/art/blue-fox-on-Muro-302282804)
 - everything in the body should really be wrapped in another div with class="page"
 
 i.e.:
