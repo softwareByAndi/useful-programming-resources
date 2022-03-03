@@ -3,7 +3,7 @@ All code examples in this folder fall under MIT license and are free to use and/
 # code examples
 
 ## implementing a webpage using css grid and flexbox
-[video]()
+[video]()  
 [code]()
 
 
