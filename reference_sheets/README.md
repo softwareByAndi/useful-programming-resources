@@ -75,4 +75,20 @@ ___
 
 
 
+# setting up a svelte-kit project
+
+type the following into your terminal
+```cmd
+npm init svelte@next appName
+npx svelte-add tailwindcss
+npm i
+```
+
+followed by adding to app.css
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 
