@@ -1,0 +1,104 @@
+.h-0 { height: 0px; }
+.h-px { height: 1px; }
+.h-0-5 { height: 0.125rem; } /* 2px */
+.h-1 { height: 0.25rem; } /* 4px */
+.h-1-5 { height: 0.375rem; } /* 6px */
+.h-2 { height: 0.5rem; } /* 8px */
+.h-2-5 { height: 0.625rem; } /* 10px */
+.h-3 { height: 0.75rem; } /* 12px */
+.h-3-5 { height: 0.875rem; } /* 14px */
+.h-4 { height: 1rem; } /* 16px */
+.h-5 { height: 1.25rem; } /* 20px */
+.h-6 { height: 1.5rem; } /* 24px */
+.h-7 { height: 1.75rem; } /* 28px */
+.h-8 { height: 2rem; } /* 32px */
+.h-9 { height: 2.25rem; } /* 36px */
+.h-10 { height: 2.5rem; } /* 40px */
+.h-11 { height: 2.75rem; } /* 44px */
+.h-12 { height: 3rem; } /* 48px */
+.h-14 { height: 3.5rem; } /* 56px */
+.h-16 { height: 4rem; } /* 64px */
+.h-20 { height: 5rem; } /* 80px */
+.h-24 { height: 6rem; } /* 96px */
+.h-28 { height: 7rem; } /* 112px */
+.h-32 { height: 8rem; } /* 128px */
+.h-36 { height: 9rem; } /* 144px */
+.h-40 { height: 10rem; } /* 160px */
+.h-44 { height: 11rem; } /* 176px */
+.h-48 { height: 12rem; } /* 192px */
+.h-52 { height: 13rem; } /* 208px */
+.h-56 { height: 14rem; } /* 224px */
+.h-60 { height: 15rem; } /* 240px */
+.h-64 { height: 16rem; } /* 256px */
+.h-72 { height: 18rem; } /* 288px */
+.h-80 { height: 20rem; } /* 320px */
+.h-96 { height: 24rem; } /* 384px */
+.h-auto { height: auto; }
+.h-fr-1-2 { height: 50%; }
+.h-fr-1-3 { height: 33.333333%; }
+.h-fr-2-3 { height: 66.666667%; }
+.h-fr-1-4 { height: 25%; }
+.h-fr-2-4 { height: 50%; }
+.h-fr-3-4 { height: 75%; }
+.h-fr-1-5 { height: 20%; }
+.h-fr-2-5 { height: 40%; }
+.h-fr-3-5 { height: 60%; }
+.h-fr-4-5 { height: 80%; }
+.h-fr-1-6 { height: 16.666667%; }
+.h-fr-2-6 { height: 33.333333%; }
+.h-fr-3-6 { height: 50%; }
+.h-fr-4-6 { height: 66.666667%; }
+.h-fr-5-6 { height: 83.333333%; }
+.h-full { height: 100%; }
+.h-screen { height: 100vh; }
+.h-min { height: min-content; }
+.h-max { height: max-content; }
+.h-fit { height: fit-content; }
+
+.min-h-0 { min-height: 0px; }
+.min-h-full { min-height: 100%; }
+.min-h-screen { min-height: 100vh; }
+.min-h-min { min-height: min-content; }
+.min-h-max { min-height: max-content; }
+.min-h-fit { min-height: fit-content; }
+
+.max-h-0 { max-height: 0px; }
+.max-h-px { max-height: 1px; }
+.max-h-0-5 { max-height: 0.125rem; } /* 2px */
+.max-h-1 { max-height: 0.25rem; } /* 4px */
+.max-h-1-5 { max-height: 0.375rem; } /* 6px */
+.max-h-2 { max-height: 0.5rem; } /* 8px */
+.max-h-2-5 { max-height: 0.625rem; } /* 10px */
+.max-h-3 { max-height: 0.75rem; } /* 12px */
+.max-h-3-5 { max-height: 0.875rem; } /* 14px */
+.max-h-4 { max-height: 1rem; } /* 16px */
+.max-h-5 { max-height: 1.25rem; } /* 20px */
+.max-h-6 { max-height: 1.5rem; } /* 24px */
+.max-h-7 { max-height: 1.75rem; } /* 28px */
+.max-h-8 { max-height: 2rem; } /* 32px */
+.max-h-9 { max-height: 2.25rem; } /* 36px */
+.max-h-10 { max-height: 2.5rem; } /* 40px */
+.max-h-11 { max-height: 2.75rem; } /* 44px */
+.max-h-12 { max-height: 3rem; } /* 48px */
+.max-h-14 { max-height: 3.5rem; } /* 56px */
+.max-h-16 { max-height: 4rem; } /* 64px */
+.max-h-20 { max-height: 5rem; } /* 80px */
+.max-h-24 { max-height: 6rem; } /* 96px */
+.max-h-28 { max-height: 7rem; } /* 112px */
+.max-h-32 { max-height: 8rem; } /* 128px */
+.max-h-36 { max-height: 9rem; } /* 144px */
+.max-h-40 { max-height: 10rem; } /* 160px */
+.max-h-44 { max-height: 11rem; } /* 176px */
+.max-h-48 { max-height: 12rem; } /* 192px */
+.max-h-52 { max-height: 13rem; } /* 208px */
+.max-h-56 { max-height: 14rem; } /* 224px */
+.max-h-60 { max-height: 15rem; } /* 240px */
+.max-h-64 { max-height: 16rem; } /* 256px */
+.max-h-72 { max-height: 18rem; } /* 288px */
+.max-h-80 { max-height: 20rem; } /* 320px */
+.max-h-96 { max-height: 24rem; } /* 384px */
+.max-h-full { max-height: 100%; }
+.max-h-screen { max-height: 100vh; }
+.max-h-min { max-height: min-content; }
+.max-h-max { max-height: max-content; }
+.max-h-fit { max-height: fit-content; }
