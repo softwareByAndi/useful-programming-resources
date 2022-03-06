@@ -80,6 +80,9 @@ ___
 type the following into your terminal
 ```cmd
 npm init svelte@next appName
+cd appName
+npm i
+
 npx svelte-add tailwindcss
 npm i
 ```
