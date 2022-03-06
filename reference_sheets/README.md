@@ -87,11 +87,14 @@ npx svelte-add tailwindcss
 npm i
 ```
 
-followed by adding to app.css
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+to build the source
+```
+npm run build
+```
+
+to run the source
+```
+npm run dev
 ```
 
 
