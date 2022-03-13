@@ -85,12 +85,15 @@ ___
 
 # setting up a svelte-kit project
 
-type the following into your terminal
+type the following into your terminal to create a new application
 ```cmd
 npm init svelte@next appName
 cd appName
 npm i
+```
 
+optional : if you want to add tailwind:
+```cmd
 npx svelte-add tailwindcss
 npm i
 ```
