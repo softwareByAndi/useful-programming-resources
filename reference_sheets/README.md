@@ -84,7 +84,12 @@ ___
 ### markdwon  
 [markdown best practices -- markdownguide.org](https://www.markdownguide.org/basic-syntax/)
 
-
+### command line
+[cmd (descriptive reference) -- git-tower.com](https://www.git-tower.com/blog/command-line-cheat-sheet/)  
+[unix cmd (thorough reference) -- academy.delmar.edu](http://academy.delmar.edu/Courses/ITSC1358/eBooks/Unix%28CommandsCheatSheet%29.pdf)  
+[cmd stuff -- devhints.io](https://devhints.io/command_line)  
+[windows cmd quick reference -- serverspace.us](https://serverspace.us/support/help/windows-cmd-commands-cheat-sheet/)  
+[cmd for cisco, juniper, alcatel, & Huawei systems -- ipcisco.com](https://ipcisco.com/wp-content/uploads/Cheat-Sheets/COMMAND-LINE-CHEAT-SHEETS-Cisco-Juniper-Alcatel-Huawei.pdf)  
 
 # setting up a svelte-kit project
 
