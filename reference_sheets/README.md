@@ -63,6 +63,8 @@ ___
 ### bash  
 [bash -- devhints.io](https://devhints.io/bash)  
 [bash shell -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/bash_shell_quick_reference.pdf)  
+[a very thorough bash reference -- oit.ua.edu/pdf](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)
+[bash guide -- mywiki.wooledge.org](http://mywiki.wooledge.org/BashGuide)
 
 ### c++
 [c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)  
