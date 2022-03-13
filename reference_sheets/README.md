@@ -63,6 +63,9 @@ ___
 [bash -- devhints.io](https://devhints.io/bash)  
 [bash shell -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/bash_shell_quick_reference.pdf)  
 
+### c++
+[c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)
+
 ### sql  
 [sql -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/sql.pdf)  
 [sql join -- devhints.io](https://devhints.io/sql-join)  
