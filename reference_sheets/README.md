@@ -67,7 +67,7 @@ ___
 ### c++
 [c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)  
 
-### RUST
+### rust
 [rust -- cheat.rs](https://cheats.rs/)  
 [rust -- quickref.me](https://quickref.me/rust)  
 
