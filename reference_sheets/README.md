@@ -66,6 +66,7 @@ ___
 
 ### c++
 [c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)  
+[c++ -- cheatography.com](https://cheatography.com/technecure/cheat-sheets/c-cheatsheet/)
 
 ### rust
 [rust -- cheat.rs](https://cheats.rs/)  
