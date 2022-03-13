@@ -55,6 +55,7 @@ ___
 
 ### python  
 [python -- devhints.io](https://devhints.io/python)  
+[python == pythoncheatsheet.org](https://www.pythoncheatsheet.org/)  
 [numpy -- pdf](http://datacamp-community-prod.s3.amazonaws.com/ba1fe95a-8b70-4d2f-95b0-bc954e9071b0)  
 [pandas -- pdf](http://datacamp-community-prod.s3.amazonaws.com/f04456d7-8e61-482f-9cc9-da6f7f25fc9b)  
 [pip -- opensource.com](https://opensource.com/sites/default/files/gated-content/cheat_sheet_pip.pdf)  
@@ -64,11 +65,11 @@ ___
 [bash shell -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/bash_shell_quick_reference.pdf)  
 
 ### c++
-[c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)
+[c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)  
 
 ### RUST
-[rust -- cheat.rs](https://cheats.rs/)
-[rust -- quickref.me](https://quickref.me/rust)
+[rust -- cheat.rs](https://cheats.rs/)  
+[rust -- quickref.me](https://quickref.me/rust)  
 
 ### sql  
 [sql -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/sql.pdf)  
