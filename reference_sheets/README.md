@@ -66,6 +66,10 @@ ___
 ### c++
 [c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)
 
+### RUST
+[rust -- cheat.rs](https://cheats.rs/)
+[rust -- quickref.me](https://quickref.me/rust)
+
 ### sql  
 [sql -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/sql.pdf)  
 [sql join -- devhints.io](https://devhints.io/sql-join)  
