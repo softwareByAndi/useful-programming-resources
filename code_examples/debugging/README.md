@@ -1,6 +1,6 @@
 # Debugging Tutorial Script:
 
-[link to tutorial recording here]()
+[link to tutorial recording here](https://www.youtube.com/watch?v=4-Um9BovATo)
 
 <br>
 
