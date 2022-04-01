@@ -2,7 +2,9 @@
 
 [link to tutorial recording here -- Youtube.com](https://www.youtube.com/watch?v=4-Um9BovATo)
 
-the code used in this tutorial can be found here : [code_examples/python_adventure_game_JSON_version -- github.com](https://github.com/softwareByAndi/useful-programming-resources/tree/main/code_examples/python_adventure_game_JSON_version) folder
+the code used in this tutorial can be found here : [code_examples/python_adventure_game_JSON_version -- github.com](https://github.com/softwareByAndi/useful-programming-resources/tree/main/code_examples/python_adventure_game_JSON_version)
+
+this tutorial also includes an example of performing tests to verify the correctness of our code. This test script can be found in this folder here : [code_examples/debugging/test.py -- github.com](https://github.com/softwareByAndi/useful-programming-resources/blob/main/code_examples/debugging/test.py)
 
 <br>
 
