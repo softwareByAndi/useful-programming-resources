@@ -11,8 +11,12 @@ All code examples in this folder fall under MIT license and are free to use and/
 
 ## implementing a webpage using css grid and flexbox
 [video](https://www.youtube.com/watch?v=WSVBw0l7knc)  
-[code]()
+[code](https://github.com/softwareByAndi/useful-programming-resources/tree/main/code_examples/webpage%20using%20html%20css%20grid%20and%20flexbox)
 
+## python adventure game
+a short text rpg
+[JSON version](https://github.com/softwareByAndi/useful-programming-resources/tree/main/code_examples/python_adventure_game_JSON_version)
+[module version](https://github.com/softwareByAndi/useful-programming-resources/tree/main/code_examples/python%20adventure_game_MODULE_version)
 
 
 
