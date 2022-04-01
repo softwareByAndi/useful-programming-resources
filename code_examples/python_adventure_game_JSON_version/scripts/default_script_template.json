@@ -1,0 +1,31 @@
+{
+  "dialogue": [
+    {
+      "name": "npc1",
+      "dialogue": [
+        "hello npc2",
+        "it's a beautiful day"
+      ]
+    },
+    {
+      "name": "npc2",
+      "dialogue": [
+        "yes, I agree npc1.",
+        "it is indeed a beautiful day"
+      ]
+    }
+  ],
+  "prompt": {
+    "options": [
+      "do something",
+      "do something else"
+    ],
+    "next_scene": [
+      "scene_1",
+      "secene_2"
+    ],
+    "events": [
+      "events.find_sword"
+    ]
+  }
+}

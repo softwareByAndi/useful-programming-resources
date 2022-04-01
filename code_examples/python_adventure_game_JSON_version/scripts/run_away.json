@@ -1,0 +1,12 @@
+{
+  "dialogue": [
+    {
+      "name": "",
+      "dialogue": [
+        "you successfully run away!",
+        "covered in sweat, snot and tears, you exit the cave"
+      ]
+    }
+  ],
+  "next_scene": "forest/go_to_village"
+}

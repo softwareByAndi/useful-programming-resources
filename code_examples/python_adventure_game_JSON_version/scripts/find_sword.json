@@ -1,0 +1,31 @@
+{
+  "dialogue": [
+    {
+      "name": "",
+      "dialogue": [
+        "you take a risk and search the dirt.",
+        "...",
+        "Greg is confused, and appears to be annoyed that you are ignoring him",
+        "but you pay it no mind.",
+        "",
+        "in the dirt you find something interesting...",
+        "this may turn the tide of battle!",
+        "",
+        ""
+      ],
+      "events": [
+        ["events.obtain_item", ["rusty sword"]]
+      ]
+    }
+  ],
+  "prompt": {
+    "options": [
+      "fight",
+      "run away"
+    ],
+    "next_scene": [
+      "fight_greg",
+      "run_away"
+    ]
+  }
+}

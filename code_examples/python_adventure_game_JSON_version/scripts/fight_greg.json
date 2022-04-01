@@ -1,0 +1,19 @@
+{
+  "dialogue": [
+    {
+      "name": "",
+      "dialogue": [
+        "with your rusty sword, you kill Greg ...",
+        "turns out he was actually pretty weak...",
+        "there was probably nothing to be afraid of",
+        "",
+        "covered in blood, you exit the cave"
+      ],
+      "events": [
+        ["events.gain_loot", [100]]
+      ]
+    }
+  ],
+  "next_scene": "forest/go_to_village"
+}
+

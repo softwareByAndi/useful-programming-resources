@@ -1,0 +1,23 @@
+{
+  "dialogue": [
+    {
+      "name": "",
+      "dialogue": [
+        "GAME OVER"
+      ]
+    },
+    "events": [
+      "events.GAME_OVER"
+    ]
+  ],
+  "prompt": {
+    "options": [
+      "do something",
+      "do something else"
+    ],
+    "next_scene": [
+      "scene_1",
+      "secene_2"
+    ],
+  }
+}

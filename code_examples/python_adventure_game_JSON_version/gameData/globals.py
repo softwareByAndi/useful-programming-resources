@@ -1,0 +1,1 @@
+defaultPause = 0.2;

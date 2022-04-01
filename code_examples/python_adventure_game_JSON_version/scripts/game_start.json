@@ -1,0 +1,32 @@
+{
+  "dialogue": [
+    {
+      "name": "???",
+      "dialogue": [
+        "hello world",
+        "my name is..",
+        "it's, umm..",
+        "hmm. It appears I've forgotten my name...",
+        "...",
+        "oh! Right! it's Greg!"
+      ]
+    },
+    {
+      "name": "Greg",
+      "dialogue": [
+        "my name is Greg!",
+        "fear me, for I am Greg!"
+      ]
+    }
+  ],
+  "prompt": {
+    "options": [
+      "fear Greg",
+      "scoff at Greg's impudence"
+    ],
+    "next_scene": [
+      "fear_greg",
+      "scoff_at_greg"
+    ]
+  }
+}

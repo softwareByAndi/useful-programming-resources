@@ -1,0 +1,24 @@
+{
+  "dialogue": [
+    {
+      "name": "",
+      "dialogue": [
+        "you are very afraid!",
+        "as you avert your eyes, you see something glint from under a pile of dirt"
+      ]
+    }
+  ],
+  "prompt": {
+    "options": [
+      "look under the dirt",
+      "run away"
+    ],
+    "next_scene": [
+      "find_sword",
+      "run_away"
+    ]
+  }
+}
+
+
+
