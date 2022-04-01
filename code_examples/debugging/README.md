@@ -1,6 +1,8 @@
 # Debugging Tutorial Script:
 
-[link to tutorial recording here](https://www.youtube.com/watch?v=4-Um9BovATo)
+[link to tutorial recording here -- Youtube.com](https://www.youtube.com/watch?v=4-Um9BovATo)
+
+the code used in this tutorial can be found here : [code_examples/python_adventure_game_JSON_version -- github.com](https://github.com/softwareByAndi/useful-programming-resources/tree/main/code_examples/python_adventure_game_JSON_version) folder
 
 <br>
 
@@ -23,7 +25,7 @@ more difficult bugs are cause by correct syntax, but poor or careless logic on t
 
 ### for example:
 ```python
-cube(num): return num * 3   # incorrect
+cube(num): return num * 3   # logical error
 cube(num): return num ** 3  # correct
 ```
 <br/>
