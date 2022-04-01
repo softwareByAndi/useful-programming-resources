@@ -1,6 +1,10 @@
 # Video tutorial for this code can be found here:
 [implementing a webpage using css grid and flex box -- youtube](https://www.youtube.com/watch?v=WSVBw0l7knc)
 
+as a note, If I could go back, I would have done this tutorial a bit differently, using:  
+```css
+grid-template-columns: 2rem 5fr 2fr 3fr 2rem
+```
 <br>
 
 # Notes:
