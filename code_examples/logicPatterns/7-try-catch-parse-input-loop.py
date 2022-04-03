@@ -24,7 +24,9 @@ while userInput == None:
   except ValueError as e:
     userInput = None
     print(e, "try again: ", end="")
-
+      
+  execpt Exception as e:
+    raise NewException("more details about current function -- " + str(e))
 print("you move ", userInput + "!")
 
 

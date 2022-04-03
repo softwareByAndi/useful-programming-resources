@@ -10,18 +10,22 @@ narrate([
 
 
 def parseUserInput(userInput):
-  return int(userInput) * 100
+    parsedInt = int(userInput)
+    return parsedInt * 100
+
+def parseInput2(userInput):
+    try:
+        userInput = parseUserInput(userInput)
+        print("SUCCESS! you entered:", userInput)
+    except ValueError:
+        print("'" + userInput + "' is not a number. try again: ", end="")
+        userInput = None
 
 userInput = None
 print("pick a number, any number... : ", end="")
 while userInput == None:
   userInput = input("")
-  try:
-    userInput = parseUserInput(userInput)
-    print("SUCCESS! you entered:", userInput)
-  except ValueError:
-    print("'" + userInput + "' is not a number. try again: ", end="")
-    userInput = None
+  parseInput2(userInput)
 
 
 narrate([
