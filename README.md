@@ -39,13 +39,6 @@ includes links to useful documents and tutorials for structuring your code/progr
 
 ___
 
-## tricky concepts
-[tricky_concepts/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/tricky_concepts/README.md)
-
-will include links to useful documents and tutorials for tricky &/or confusing concepts
-
-___
-
 ## full length courses
 [python_tutorials/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/python_tutorials/README.md)
 
