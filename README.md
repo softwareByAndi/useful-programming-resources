@@ -22,6 +22,16 @@ includes links to:
 
 ___
 
+## code examples
+[code_examples/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/code_examples/README.md)
+
+includes links to:
+- annotated example code
+- code used in my recorded YouTube tutorials
+- example code written during Q&A sessions
+
+___
+
 ## design patterns
 [design_patterns/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/design_patterns/README.md)
 
@@ -39,4 +49,4 @@ ___
 ## full length courses
 [python_tutorials/README.md](https://github.com/softwareByAndi/useful-programming-resources/blob/main/python_tutorials/README.md)
 
-includes books and tutorials for extra practice and alternate explanationsofPython concepts
+includes books and tutorials for extra practice and alternate explanations of Python concepts
