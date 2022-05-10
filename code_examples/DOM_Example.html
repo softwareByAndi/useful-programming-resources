@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+  <title>DOM Example</title>
+</head>
+
+<body style="text-align: center; font-size:larger; font-weight:bolder;">
+  <div id="test">click me</div>
+  
+  <script>
+    // note that we will often need to wait until the page is 
+    // fully loaded before accessing any DOM elements
+    // we can do this by setting a handler for the `onload` event
+    // which is triggered when the page finishes loading.
+    window.onload = () => { // we don't have to accept any event parameter if we don't have any use for it.
+        console.log("loaded...")
+        let element = document.getElementById("test");
+      
+        // this is shorthand for `element.addEventListener("click", (event) => {...});
+        element.onclick = (event) => {
+            event.preventDefault()
+            const target_element = event.target; // note that this is a constant reference. not constant data.
+            // do stuff with target_element
+            const new_element = document.createElement("div") // i.e. "div", "p", "a", ...etc
+            new_element.style.background = "#ff4d4d" // styling set via javascript will overwrite any CSS styling 
+            new_element.textContent = "text"; // for paragraph elements
+            new_element.innerHTML = `<p>
+              hello
+              <span class="some-classes" style="color: white;">
+                world
+              </span>
+            </p>`;
+
+            target_element.appendChild(new_element);
+
+            console.log("has children nodes? = ", target_element.hasChildNodes()) // returns a boolean (true or false)
+            console.log("first child: ", target_element.children[0])
+        }
+    }
+  </script>
+</body>
