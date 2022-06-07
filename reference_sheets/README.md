@@ -17,24 +17,25 @@ ___
 
 ## subject specific reference sheets  
 
-### vscode
+### vscode  
 >[vscode shortcuts -- devhints.io](https://devhints.io/vscode)
 
-### terminals
+### terminals  
 >[powershell download for windows users](https://docs.microsoft.com/en-us/powershell/)
 
 ### html5  
->[html5 -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/html5.pdf)  
+>[html5 -- quickref.me](https://quickref.me/html)  
+[html5 -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/html5.pdf)  
 [html5 -- shecodes.com](https://www.frontendcheatsheets.com/html)  
 
->[html best practices -- webfx.com](https://www.webfx.com/blog/web-design/20-html-best-practices-you-should-follow/)
-[html best practices -- kinsta.com](https://kinsta.com/blog/html-best-practices/)
+>[html best practices -- webfx.com](https://www.webfx.com/blog/web-design/20-html-best-practices-you-should-follow/)  
+[html best practices -- kinsta.com](https://kinsta.com/blog/html-best-practices/)  
 
->[html caracters reference -- quickref.me](https://quickref.me/html-char)
-[screen resolutions - quickref.me](https://quickref.me/resolutions)
+>[html caracters reference -- quickref.me](https://quickref.me/html-char)  
+[screen resolutions - quickref.me](https://quickref.me/resolutions)  
 
 ### css  
->[material icons](https://fonts.google.com/icons?selected=Material+Icons)
+>[material icons](https://fonts.google.com/icons?selected=Material+Icons)  
 
 >[css -- shecodes.com](https://www.frontendcheatsheets.com/css)  
 
@@ -61,7 +62,7 @@ ___
 
 ### python  
 >[python -- quickref.me](https://quickref.me/python)  
-[numpy -- quickref.me](https://quickref.me/)
+[numpy -- quickref.me](https://quickref.me/)  
 
 >[python -- devhints.io](https://devhints.io/python)  
 [python -- pythoncheatsheet.org](https://www.pythoncheatsheet.org/)  
@@ -77,13 +78,13 @@ ___
 [a very thorough bash reference -- oit.ua.edu/pdf](https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf)  
 [bash guide -- mywiki.wooledge.org](http://mywiki.wooledge.org/BashGuide)  
 
-### c++
+### c++  
 >[c++ -- quickref.me](https://quickref.me/cpp)  
 
 >[c++ -- github/mortennobel](https://github.com/mortennobel/cpp-cheatsheet)  
-[c++ -- cheatography.com](https://cheatography.com/technecure/cheat-sheets/c-cheatsheet/)
+[c++ -- cheatography.com](https://cheatography.com/technecure/cheat-sheets/c-cheatsheet/)  
 
-### rust
+### rust  
 >[rust -- quickref.me](https://quickref.me/rust)  
 [rust -- cheat.rs](https://cheats.rs/)  
 
@@ -95,9 +96,10 @@ ___
 >[git education -- pdf](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/git_education.pdf)  
 
 ### markdwon  
->[markdown best practices -- markdownguide.org](https://www.markdownguide.org/basic-syntax/)
+>[markdown best practices -- markdownguide.org](https://www.markdownguide.org/basic-syntax/)  
+[markdown -- quickref.me](https://quickref.me/markdown)
 
-### command line
+### command line  
 >[cmd (descriptive reference) -- git-tower.com](https://www.git-tower.com/blog/command-line-cheat-sheet/)  
 
 >[unix cmd (thorough reference) -- academy.delmar.edu](http://academy.delmar.edu/Courses/ITSC1358/eBooks/Unix%28CommandsCheatSheet%29.pdf)  
