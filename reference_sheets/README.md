@@ -35,17 +35,27 @@ ___
 [screen resolutions - quickref.me](https://quickref.me/resolutions)  
 
 ### css  
->[material icons](https://fonts.google.com/icons?selected=Material+Icons)  
+>[css -- quickref.com](https://quickref.com/css)  
+[css -- shecodes.com](https://www.frontendcheatsheets.com/css)  
 
->[css -- shecodes.com](https://www.frontendcheatsheets.com/css)  
+>[material icons](https://fonts.google.com/icons?selected=Material+Icons)  
+[css system fonts -- devhints.io](https://devhints.io/css-system-font-stack) 
 
 >[css-flexbox -- devhints.io](https://devhints.io/css-flexbox)  
-[css-grid -- devhints.io](https://devhints.io/css-grid)  
-[css system fonts -- devhints.io](https://devhints.io/css-system-font-stack)  
+[css-grid -- devhints.io](https://devhints.io/css-grid)   
 
 >[css media-queries -- .css file](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/css_media_queries.css)  
 
->[tailwindcss -- tailwindcss.com](https://tailwindcss.com/docs/flex)  
+>[tailwindcss (post compiled micro classes) -- tailwindcss.com](https://tailwindcss.com/docs/flex)  
+
+#### css animation
+>[css animation quick reference -- quickref.me](https://quickref.me/css#css-animation)  
+[css animation -- w3schools.com](https://www.w3schools.com/css/css3_animations.asp)  
+[css animation-name property  -- w3schools.com](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)  
+[css animation keyframes -- w3schools.com](https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp)  
+[css animation 24 creative examples -- blog.hubspot.com](https://blog.hubspot.com/website/css-animation-examples) 
+[css timing functions -- w3schools.com](https://www.w3schools.com/CSSref/css3_pr_transition-timing-function.asp)  
+
 
 ### sass  
 >[sass -- devhints.io](https://devhints.io/sass)  
