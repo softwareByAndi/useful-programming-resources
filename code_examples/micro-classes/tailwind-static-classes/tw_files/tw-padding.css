@@ -44,27 +44,27 @@
 .pl-px {
   padding-left: 1px;
 }
-.p-0_5 {
+.p-0\.5 {
   padding: 0.125rem; /* 2px */
 }
-.px-0_5 {
+.px-0\.5 {
   padding-left: 0.125rem; /* 2px */
   padding-right: 0.125rem; /* 2px */
 }
-.py-0_5 {
+.py-0\.5 {
   padding-top: 0.125rem; /* 2px */
   padding-bottom: 0.125rem; /* 2px */
 }
-.pt-0_5 {
+.pt-0\.5 {
   padding-top: 0.125rem; /* 2px */
 }
-.pr-0_5 {
+.pr-0\.5 {
   padding-right: 0.125rem; /* 2px */
 }
-.pb-0_5 {
+.pb-0\.5 {
   padding-bottom: 0.125rem; /* 2px */
 }
-.pl-0_5 {
+.pl-0\.5 {
   padding-left: 0.125rem; /* 2px */
 }
 .p-1 {
@@ -90,27 +90,27 @@
 .pl-1 {
   padding-left: 0.25rem; /* 4px */
 }
-.p-1_5 {
+.p-1\.5 {
   padding: 0.375rem; /* 6px */
 }
-.px-1_5 {
+.px-1\.5 {
   padding-left: 0.375rem; /* 6px */
   padding-right: 0.375rem; /* 6px */
 }
-.py-1_5 {
+.py-1\.5 {
   padding-top: 0.375rem; /* 6px */
   padding-bottom: 0.375rem; /* 6px */
 }
-.pt-1_5 {
+.pt-1\.5 {
   padding-top: 0.375rem; /* 6px */
 }
-.pr-1_5 {
+.pr-1\.5 {
   padding-right: 0.375rem; /* 6px */
 }
-.pb-1_5 {
+.pb-1\.5 {
   padding-bottom: 0.375rem; /* 6px */
 }
-.pl-1_5 {
+.pl-1\.5 {
   padding-left: 0.375rem; /* 6px */
 }
 .p-2 {
@@ -136,27 +136,27 @@
 .pl-2 {
   padding-left: 0.5rem; /* 8px */
 }
-.p-2_5 {
+.p-2\.5 {
   padding: 0.625rem; /* 10px */
 }
-.px-2_5 {
+.px-2\.5 {
   padding-left: 0.625rem; /* 10px */
   padding-right: 0.625rem; /* 10px */
 }
-.py-2_5 {
+.py-2\.5 {
   padding-top: 0.625rem; /* 10px */
   padding-bottom: 0.625rem; /* 10px */
 }
-.pt-2_5 {
+.pt-2\.5 {
   padding-top: 0.625rem; /* 10px */
 }
-.pr-2_5 {
+.pr-2\.5 {
   padding-right: 0.625rem; /* 10px */
 }
-.pb-2_5 {
+.pb-2\.5 {
   padding-bottom: 0.625rem; /* 10px */
 }
-.pl-2_5 {
+.pl-2\.5 {
   padding-left: 0.625rem; /* 10px */
 }
 .p-3 {
@@ -182,27 +182,27 @@
 .pl-3 {
   padding-left: 0.75rem; /* 12px */
 }
-.p-3_5 {
+.p-3\.5 {
   padding: 0.875rem; /* 14px */
 }
-.px-3_5 {
+.px-3\.5 {
   padding-left: 0.875rem; /* 14px */
   padding-right: 0.875rem; /* 14px */
 }
-.py-3_5 {
+.py-3\.5 {
   padding-top: 0.875rem; /* 14px */
   padding-bottom: 0.875rem; /* 14px */
 }
-.pt-3_5 {
+.pt-3\.5 {
   padding-top: 0.875rem; /* 14px */
 }
-.pr-3_5 {
+.pr-3\.5 {
   padding-right: 0.875rem; /* 14px */
 }
-.pb-3_5 {
+.pb-3\.5 {
   padding-bottom: 0.875rem; /* 14px */
 }
-.pl-3_5 {
+.pl-3\.5 {
   padding-left: 0.875rem; /* 14px */
 }
 .p-4 {
