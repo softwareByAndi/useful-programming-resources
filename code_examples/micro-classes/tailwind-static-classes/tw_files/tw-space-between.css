@@ -1,5 +1,5 @@
-.space-x-0 > *:not(:first-child) { margin-left: 0px; }
-.space-y-0 > *:not(:first-child) { margin-top: 0px; }
+.space-x-0 > *:not(:first-child) { margin-left: 0; }
+.space-y-0 > *:not(:first-child) { margin-top: 0; }
 .space-x-0-5 > *:not(:first-child) { margin-left: 0.125rem; } /* 2px */
 .space-y-0-5 > *:not(:first-child) { margin-top: 0.125rem; } /* 2px */
 .space-x-1 > *:not(:first-child) { margin-left: 0.25rem; } /* 4px */

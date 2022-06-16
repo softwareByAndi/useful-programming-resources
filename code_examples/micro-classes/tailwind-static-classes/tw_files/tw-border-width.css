@@ -1,5 +1,5 @@
 .border-0 {
-  border-width: 0px; 
+  border-width: 0;
 }
 .border-2 {
   border-width: 2px; 
@@ -14,8 +14,8 @@
   border-width: 1px; 
 }
 .border-x-0 {
-  border-left-width: 0px;  
-  border-right-width: 0px; 
+  border-left-width: 0;
+  border-right-width: 0;
 }
 .border-x-2 {
   border-left-width: 2px;  
@@ -34,8 +34,8 @@
   border-right-width: 1px; 
 }
 .border-y-0 {
-  border-top-width: 0px;  
-  border-bottom-width: 0px; 
+  border-top-width: 0;
+  border-bottom-width: 0;
 }
 .border-y-2 {
   border-top-width: 2px;  
@@ -54,7 +54,7 @@
   border-bottom-width: 1px; 
 }
 .border-t-0 {
-  border-top-width: 0px; 
+  border-top-width: 0;
 }
 .border-t-2 {
   border-top-width: 2px; 
@@ -69,7 +69,7 @@
   border-top-width: 1px; 
 }
 .border-r-0 {
-  border-right-width: 0px; 
+  border-right-width: 0;
 }
 .border-r-2 {
   border-right-width: 2px; 
@@ -84,7 +84,7 @@
   border-right-width: 1px; 
 }
 .border-b-0 {
-  border-bottom-width: 0px; 
+  border-bottom-width: 0;
 }
 .border-b-2 {
   border-bottom-width: 2px; 
@@ -99,7 +99,7 @@
   border-bottom-width: 1px; 
 }
 .border-l-0 {
-  border-left-width: 0px; 
+  border-left-width: 0;
 }
 .border-l-2 {
   border-left-width: 2px; 
