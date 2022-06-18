@@ -1,0 +1,52 @@
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  div {
+    min-width: 20;
+    min-height: 20;
+  }
+
+  body.c {
+    background-color: black;
+  }
+  
+  body .c {
+    background-color: blue;
+    margin: 2px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  body > .c {
+    background-color: red;
+    margin: 2px;
+  }
+
+  body .c:nth-child(2) {
+    font-weight: bolder;
+    color: black;
+  }
+  
+
+  body .c .text-black:last-child {
+    font-weight: bolder;
+    color: gray;
+    font-style: italic;
+  }
+
+</style>
+
+<body class="c">
+  <div class="c text-black">
+    <div class="c">1</div>
+    <div class="text-black">2</div>
+    <div class="text-black">3</div>
+  </div>
+
+  <div class="c text-black">4</div>
+  <div class="c text-black">5</div>
+  <div class="c">6</div>
+</body>
