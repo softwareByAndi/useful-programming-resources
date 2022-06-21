@@ -13,6 +13,9 @@
   .c:hover {
     background-color: black;
   }
+  .c.a\.asdf {
+    background-color: pink;
+  }
   .c .a {
     background-color: orange;
     border: 1px solid black;
@@ -20,6 +23,8 @@
   #i[name] {
     background-color: yellow;
   }
+
+
 
 </style>
 <!--(1,0,0) > (0,1,0) > (0,0,1) > (0,0,0)-->
@@ -42,9 +47,9 @@ Levels of importance from least to most specific:
   <div class="c">
     .c
   </div>
-  <div class="c a">
+  <div class="c a.asdf">
     <div class="a">
-      .c .a
+      .c .a\.asdf
       <div class="c a">
         .c .a
         <div class="a">
