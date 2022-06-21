@@ -35,7 +35,7 @@ ___
 [screen resolutions - quickref.me](https://quickref.me/resolutions)  
 
 ### css  
->[css -- quickref.com](https://quickref.com/css)  
+>[css -- quickref.me](https://quickref.me/css)  
 [css -- shecodes.com](https://www.frontendcheatsheets.com/css)  
 
 >[material icons](https://fonts.google.com/icons?selected=Material+Icons)  
