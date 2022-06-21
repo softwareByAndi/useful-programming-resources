@@ -1,0 +1,61 @@
+<style>
+  * {
+    margin: 0;
+    padding: 5px;
+    background-color: #333;
+  }
+  div {
+    background-color: red;
+  }
+  .c {
+    background-color: green;
+  }
+  .c:hover {
+    background-color: black;
+  }
+  .c .a {
+    background-color: orange;
+    border: 1px solid black;
+  }
+  #i[name] {
+    background-color: yellow;
+  }
+
+</style>
+<!--(1,0,0) > (0,1,0) > (0,0,1) > (0,0,0)-->
+
+<!--
+CSS = Cascading Style Sheets
+
+Levels of importance from least to most specific:
+(000) * ( all elements ) least specific
+(001) elements (div, span, etc...)
+(010) classes & selectors(:hover, parameter, :nth-child(), children, etc...)
+(100) ids
+-->
+
+<html>
+<body>
+  <div>
+    div
+  </div>
+  <div class="c">
+    .c
+  </div>
+  <div class="c a">
+    <div class="a">
+      .c .a
+      <div class="c a">
+        .c .a
+        <div class="a">
+          .c .a
+        </div>
+      </div>
+    </div>
+    .c.a
+  </div>
+  <div id="i">
+    #i
+  </div>
+</body>
+</html>
