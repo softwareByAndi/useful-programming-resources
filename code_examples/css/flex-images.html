@@ -1,0 +1,46 @@
+<style>
+  .img-wrapper {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #777;
+  }  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .fit-contain { object-fit: contain; }
+  .fit-cover   { object-fit: cover; }
+  .flex        { display: flex; }
+  .gap-sm      { gap: 20px; }
+  .center      { justify-content: center; }
+</style>
+
+<body>
+  <section class="flex gap-sm center">
+    <div>
+      <div class="img-wrapper">
+        <img class="fit-cover"
+          src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.incrediblesnaps.com%2Fwp-content%2Fuploads%2F2014%2F04%2F45-Adorable-Cute-Puppies-19.jpg&f=1&nofb=1" 
+          alt="cute puppy">
+      </div>
+      object-fit: cover;
+    </div>
+    <div>
+      <div class="img-wrapper">
+        <img class="fit-contain"
+          src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.incrediblesnaps.com%2Fwp-content%2Fuploads%2F2014%2F04%2F45-Adorable-Cute-Puppies-19.jpg&f=1&nofb=1" 
+          alt="cute puppy">
+      </div>
+      object-fit: contain;
+    </div>
+    <div>
+      <div class="img-wrapper">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.incrediblesnaps.com%2Fwp-content%2Fuploads%2F2014%2F04%2F45-Adorable-Cute-Puppies-19.jpg&f=1&nofb=1" 
+          alt="cute puppy">
+      </div>
+      no object-fit property
+    </div>
+  </section>
+</body>
