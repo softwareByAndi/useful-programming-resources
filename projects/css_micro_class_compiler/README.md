@@ -334,10 +334,19 @@ Since we cannot control which order a dictionary's elements are indexed, we need
 
 ## STEP 9: filter unused classes for production use css file
 
-This is probably the most difficult of all the steps, but it's all about identifying all css classes in your html files.  
+This can actually be very simple or very complex.
 
-- start with a test html file and try to get all css classes
+- [ ] the easiest method is to rebuild the compiled css but only add a class if that class can be found in your code.
+  - this is relatively straight forward: 
+    1. concatenate all of your code files together into one long string
+    2. simply check `if css_class_name in code`
+    3. if true, then concatenate the css class details into your compiled css file
+    4. otherwise skip it
+
+- [ ] an alternative method is to use regex to obtain a list of all css classes
+  - start with a test html file for this...
   - [python regex -- w3schools.com](https://www.w3schools.com/python/python_regex.asp)
+  - [python uniqe -- freecodecap.org](https://www.freecodecamp.org/news/python-unique-list-how-to-get-all-the-unique-values-in-a-list-or-array/) (filter out duplicate entries)
   ```html
   <div class="text-md lg:text-lg">
     <h1>Hello world</h1>
@@ -348,6 +357,11 @@ This is probably the most difficult of all the steps, but it's all about identif
     </div>
   </div>
   ```
+  - then use this list to filter in the same way as the previous method  
+
+
+## STEP 10
+Note that the first method is very easy, but the second method allows more flexibility for dynamic compilation, such as specifying specific values for a class
 
 
 
