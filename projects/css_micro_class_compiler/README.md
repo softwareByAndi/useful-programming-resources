@@ -375,7 +375,7 @@ this step is to encorporate the ability to program dynamic variables into your c
   ```
 - should **create** the following css class:
   ```
-  .text-color-[#EA4A2A] {
+  .text-color-\[#EA4A2A\] {
     color: #EA4A2A
   }
   ```
