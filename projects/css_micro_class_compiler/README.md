@@ -361,8 +361,25 @@ This can actually be very simple or very complex.
   - then use this list to filter in the same way as the previous method  
 
 
-## STEP 10
+<br>
+<br>
+
+
+## STEP 9: dynamic compilation
 Note that the first method is very easy, but the second method allows more flexibility for dynamic compilation, such as specifying specific values for a class
+
+this step is to encorporate the ability to program dynamic variables into your classes.
+- for example, the html code below:
+  ```
+  <p class="text-color-[#EA4A2A]> This text should be burnt orange </p>
+  ```
+- should **create** the following css class:
+  ```
+  .text-color-[#EA4A2A] {
+    color: #EA4A2A
+  }
+  ```
+
 
 
 
