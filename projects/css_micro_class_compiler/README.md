@@ -12,6 +12,7 @@ each of these steps are aimed to produce a complete & functional compiler of inc
 <br>
 
 ## STEP 1: MVP - bare minimun  
+
 - [ ] ability read & write files  
   - [python file handeling -- quickref.me](https://quickref.me/python#python-file-handling)  
 - [ ] read all files in a given directory & concatenate them into a single super file  
@@ -21,13 +22,15 @@ each of these steps are aimed to produce a complete & functional compiler of inc
 <br>
 
 ## STEP 2: nested file structures  
+
 - [ ] refactor step 1 to work with nested file structures  
   - [python check if file is path or directory -- pythonexamples.org](https://pythonexamples.org/python-check-if-path-is-file-or-directory/)  
 
 <br>
 <br>
 
-## STEP 3: refactor to use builder files
+## STEP 3: refactor to use builder files & remove redundant code
+
 - [ ] create an optional `build.json` builder file that can be used to define class parameters
   - [python dictionary -- quickref.me](https://quickref.me/python#dictionary)
   - for example:
@@ -69,6 +72,74 @@ each of these steps are aimed to produce a complete & functional compiler of inc
     }
     ```
 
+<br>
+<br>
+
+## STEP 4: refactor to include media queries
+- [ ] refactor the `build.json` file to include optional media queries
+  - for example:
+    ```
+    {
+      "media_queries": {
+        "lg": "only screen and (min-width: 64.063em)"
+        "md": "only screen and (min-width: 40.063em)"
+      },
+      "params": {
+        "lg": "2rem",
+        "md": "1rem",
+        "sm": "0.7rem"
+      }
+    }
+    ```
+- [ ] the `build.json` file above should produce the following output  
+
+  *notice the automatic additions of:* `@media`, `\:`, `{`, `}`, *and* `indentation` *for the media query entries*   
+  
+  - media queries should only be processed for classes. not for ids or anything else.  
+    *also notice that* `lg\:` *and* `md\:` *are added after the `.` selector and before the selector name.*  
+  
+  - input
+    ```css
+    .text-<<{key}>> {
+      font-size: <<{{value}}>>;
+    }!!!
+    ```
+  - output
+    ```css
+    .text-lg {
+      font-size: 2rem;
+    }
+    .text-md {
+      font-size: 1rem;
+    }
+    .text-sm {
+      font-size: 0.7rem;
+    }
+    
+    @media only screen and (min-width: 64.063em) {
+      .lg\:text-lg {
+        font-size: 2rem;
+      }
+      .lg\:text-md {
+        font-size: 1rem;
+      }
+      .lg\:text-sm {
+        font-size: 0.7rem;
+      }
+    }
+    
+    @media only screen and (min-width: 40.063em) {
+      .md\:text-lg {
+        font-size: 2rem;
+      }
+      .md\:text-md {
+        font-size: 1rem;
+      }
+      .md\:text-sm {
+        font-size: 0.7rem;
+      }
+    }
+    ```
 
 
 <br>
