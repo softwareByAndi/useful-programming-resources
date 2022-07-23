@@ -337,7 +337,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
 This is probably the most difficult of all the steps, but it's all about identifying all css classes in your html files.  
 
 - start with a test html file and try to get all css classes
-  - 
+  - [python regex -- w3schools.com](https://www.w3schools.com/python/python_regex.asp)
   ```html
   <div class="text-md lg:text-lg">
     <h1>Hello world</h1>
