@@ -379,4 +379,6 @@ this step is to encorporate the ability to program dynamic variables into your c
     color: #EA4A2A
   }
   ```
-
+- other examples:
+  - `text-[10px]` => `.text-\[10px\] { font-size: 10px; }
+  - `text-[1.3rem]` => `.text-\[1.3rem\] { font-size: 1.3rem; }
