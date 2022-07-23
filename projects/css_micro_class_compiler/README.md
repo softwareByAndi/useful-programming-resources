@@ -141,6 +141,64 @@ each of these steps are aimed to produce a complete & functional compiler of inc
     }
     ```
 
+<br>
+<br>
+
+# STEP 5: order matters (sometimes) - refactor build.json to include the ability to specify order
+
+notice in the previous file, that the .md: media query comes after the .lg: media query. Since in this particular example, the md query is always active when the lg query is; so the md query classes will overwrite lg query classes if an element contains both of them. we don't want this. 
+
+Since we cannot control which order a dictionary's elements are indexed, we need to add an aditional property to specify which items should be written in which order.  
+
+### there are a few ways we can do this:  
+
+1. do it your own way. there are a number of valid solutions to this. tackle it in any way you want.
+    
+2. add an number to the key and simply remove it when processing
+  - e.g.
+    ```
+    {
+      "media_queries": {
+        "1_sm": ...,
+        "2_md": "only screen and (min-width: 40.063em)"
+        "3_lg": "only screen and (min-width: 64.063em)"
+      },
+      "params": {
+        "3_lg": "2rem",
+        "2_md": "1rem",
+        "1_sm": "0.7rem"
+      }
+    }
+    ```
+    
+3. turn the value from a string to a dictionary and add an `order` property
+  - if the order doesn't matter, then the value can be a string instead
+  - e.g.
+    ```
+    {
+      "media_queries": {
+        "lg": {
+          "order": 3,
+          "value": "only screen and (min-width: 64.063em)"
+        },
+        "md": {
+          "order": 2,
+          "value": "only screen and (min-width: 40.063em)"
+        }
+      },
+      "params": {
+        "3_lg": "2rem",
+        "2_md": "1rem",
+        "1_sm": "0.7rem"
+      }
+    }
+
+    
+<br>
+<br>
+
+
+
 
 <br>
 <br>
