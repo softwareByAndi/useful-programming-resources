@@ -56,6 +56,13 @@ each of these steps are aimed to produce a complete & functional compiler of inc
       font-size: <<{{value}}>>;
     }!!!
     ```
+  - another example:
+    ```css
+    .px-<<{key}>> {
+      padding-left: <<{{value}}>>;
+      padding-right: <<{{value}}>>;
+    }!!!
+    ```
   - remove any duplicate selectors while you're at it.
 
 - [ ] split the css file to get each selector
