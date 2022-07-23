@@ -22,13 +22,14 @@ each of these steps are aimed to produce a complete & functional compiler of inc
 
 ## STEP 2: nested file structures  
 - [ ] refactor step 1 to work with nested file structures  
-  - [python check if file is path or directory] (https://pythonexamples.org/python-check-if-path-is-file-or-directory/)  
+  - [python check if file is path or directory -- pythonexamples.org](https://pythonexamples.org/python-check-if-path-is-file-or-directory/)  
 
 <br>
 <br>
 
 ## STEP 3: refactor to use builder files
 - [ ] create an optional `build.json` builder file that can be used to define class parameters
+  - [python dictionary -- quickref.me](https://quickref.me/python#dictionary)
 - [ ] refactor the css file(s) so that each class/selector can be easily singled out using `string.split()`
   - it's recommended to use a test file from here on out while developing
 - [ ] refactor the css file(s) again to replace instances of a parameter with a parameter tag/key
