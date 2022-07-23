@@ -2,20 +2,37 @@
 
 this project aims to build a compiler for constructing a large amount of custom css micro classes using a maintainable and scalable structure
 
+<br>
+<hr>
+<br>
+
 # ITERATIVE DEVELOPMENT STEPS
 each of these steps are aimed to produce a complete & functional compiler of increasing complexity
 
-## STEP 1: MVP - bare minimun 
-- [ ] ability read & write files
-  - [python file handeling -- quickref.me](https://quickref.me/python#python-file-handling)
-- [ ] read all files in a given directory & concatenate them into a single super file
-  - [python read all files in given directory -- stackoverflow.com](https://stackoverflow.com/questions/26695903/python-how-to-read-all-files-in-a-directory)
-  
-  
-## STEP 2: nested file structures
-- [ ] refactor step 1 to work with nested file structures
-  - [python check if file is path or directory] (https://pythonexamples.org/python-check-if-path-is-file-or-directory/)
+<br>
 
+## STEP 1: MVP - bare minimun  
+- [ ] ability read & write files  
+  - [python file handeling -- quickref.me](https://quickref.me/python#python-file-handling)  
+- [ ] read all files in a given directory & concatenate them into a single super file  
+  - [python read all files in given directory -- stackoverflow.com](https://stackoverflow.com/questions/26695903/python-how-to-read-all-files-in-a-directory)  
+
+<br>
+<br>
+
+## STEP 2: nested file structures  
+- [ ] refactor step 1 to work with nested file structures  
+  - [python check if file is path or directory] (https://pythonexamples.org/python-check-if-path-is-file-or-directory/)  
+
+<br>
+<br>
+
+
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 # TODO:
 ## refactor to reduce duplicate code & increase flexibility
