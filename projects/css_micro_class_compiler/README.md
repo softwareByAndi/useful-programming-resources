@@ -201,8 +201,10 @@ Since we cannot control which order a dictionary's elements are indexed, we need
 # STEP 6: add child selectors
 
 - [ ] refactor `build.json` to include a property for selectors
-  - for this step, all we care about are direct an indirect child selectors, so this can remain simple
-  - e.g.
+  - for this step, all we care about are direct an indirect child selectors, so this can remain simple  
+    *notice the automatic additions of:* `*` *for the media query entries*   
+    *also notice that the media queries also include entries for the selectors. (if they do not, then refactor that part of your code)*
+  - e.g.  
     ```
     {
       "media_queries": {...},
@@ -239,7 +241,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
     .text-lg:child > * {
       font-size: 2rem;
     }
-    .text-md:child > *{
+    .text-md:child > * {
       font-size: 1rem;
     }
     .text-sm:child > * {
@@ -249,7 +251,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
     .text-lg:descendents * {
       font-size: 2rem;
     }
-    .text-md:descendents *{
+    .text-md:descendents * {
       font-size: 1rem;
     }
     .text-sm:descendents * {
@@ -270,7 +272,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
       .lg\:text-lg:child > * {
         font-size: 2rem;
       }
-      .lg\:text-md:child > *{
+      .lg\:text-md:child > * {
         font-size: 1rem;
       }
       .lg\:text-sm:child > * {
@@ -280,7 +282,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
       .lg\:text-lg:descendents * {
         font-size: 2rem;
       }
-      .lg\:text-md:descendents *{
+      .lg\:text-md:descendents * {
         font-size: 1rem;
       }
       .lg\:text-sm:descendents * {
@@ -303,7 +305,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
   - pre-processor files (media queries, etc...) 
   - target selector files (child selectors, property selectors, etc...)
   - property files (min-height, gap, text, etc...)
-  - parameter files:
+  - parameter files:define[micro-class-compiler]:
     - size files (full, screen, 1.5, xl, 2/3, [100px], etc...)
     - position files(center, start, end, etc...)
     - etc...
