@@ -144,7 +144,7 @@ each of these steps are aimed to produce a complete & functional compiler of inc
 <br>
 <br>
 
-# STEP 5: order matters (sometimes) - refactor build.json to include the ability to specify order
+## STEP 5: order matters (sometimes) - refactor build.json to include the ability to specify order
 
 notice in the previous file, that the .md: media query comes after the .lg: media query. Since in this particular example, the md query is always active when the lg query is; so the md query classes will overwrite lg query classes if an element contains both of them. we don't want this. 
 
@@ -198,7 +198,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
 <br>
 <br>
 
-# STEP 6: add child selectors
+## STEP 6: add child selectors
 
 - [ ] refactor `build.json` to include a property for selectors
   - for this step, all we care about are direct an indirect child selectors, so this can remain simple  
@@ -292,6 +292,63 @@ Since we cannot control which order a dictionary's elements are indexed, we need
     
     @media only screen and (min-width: 40.063em) {...}
     ```
+    
+<br>
+<br>
+
+## STEP 8: generalize selectors  
+
+- [ ] refactor `build.json` to generalize the selectors portion to be able to include any selector type
+  - e.g. 
+    ```
+    {
+      "media_queries": {...},
+      "params": {...},
+      
+      "selectors": {
+        "child": {            // e.g. text-size-md > *
+          "selector": " > ",
+          "tag": "*"
+        },
+        
+        "descendents": {      // e.g. text-size-md *
+          "selector": " ",
+          "tag": "*"
+        },
+        
+        "active": {
+          "selector": ":",    // e.g. text-size-md:active
+          "tag": "active"
+        }
+        
+        "after": {
+          "selector": "::",   // e.g. text-size-md::after
+          "tag": "after"
+        }
+      }
+    }
+    ```
+    
+
+
+## STEP 9: filter unused classes for production use css file
+
+This is probably the most difficult of all the steps, but it's all about identifying all css classes in your html files.  
+
+- start with a test html file and try to get all css classes
+  - 
+  ```html
+  <div class="text-md lg:text-lg">
+    <h1>Hello world</h1>
+    <p>this is a test file</p>
+    <div class="text-sm:child">
+      <p>this is some small text</p>
+      <p>this is some more small text</p>
+    </div>
+  </div>
+  ```
+
+
 
 <br>
 <br>
