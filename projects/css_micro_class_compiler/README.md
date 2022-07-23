@@ -27,6 +27,60 @@ each of these steps are aimed to produce a complete & functional compiler of inc
 <br>
 <br>
 
+## STEP 3: refactor to use builder files
+- [ ] create an optional `build.json` builder file that can be used to define class parameters
+- [ ] refactor the css file(s) so that each class/selector can be easily singled out using `string.split()`
+  - it's recommended to use a test file from here on out while developing
+- [ ] refactor the css file(s) again to replace instances of a parameter with a parameter tag/key
+  - remove any duplicate selectors while you're at it.
+  - e.g:  
+
+  original
+  ```css
+  .text-lg {
+    font-size: 2rem;
+  }
+  .text-md {
+    font-size: 1rem;
+  }
+  .text-sm {
+    font-size: 0.7rem;
+  }
+  ```
+  after refactor:
+
+  ```json
+  // build.json
+
+  {
+    "lg": "3rem",
+    "md": "1rem",
+    "sm": "0.5rem"
+  }
+  ```
+
+  ```css
+  /* new css file before processing */
+
+  .text-<<{key}>> {
+    font-size: <<{{value}}>>;
+  }!!!
+  ```
+
+  ```css
+  /* css result after processing */
+
+  .text-lg {
+    font-size: 3rem;
+  }
+  .text-md {
+    font-size: 1rem;
+  }
+  .text-sm {
+    font-size: 0.5rem;
+  }
+  ```
+
 
 <br>
 <br>
