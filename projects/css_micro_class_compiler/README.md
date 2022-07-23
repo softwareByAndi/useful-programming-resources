@@ -297,7 +297,7 @@ Since we cannot control which order a dictionary's elements are indexed, we need
 <br>
 <br>
 
-## STEP 8: generalize selectors  
+## STEP 7: generalize selectors  
 
 - [ ] refactor `build.json` to generalize the selectors portion to be able to include any selector type
   - e.g. 
@@ -330,9 +330,10 @@ Since we cannot control which order a dictionary's elements are indexed, we need
     }
     ```
     
+<br>
+<br>
 
-
-## STEP 9: filter unused classes for production use css file
+## STEP 8: filter unused classes for production use css file
 
 This can actually be very simple or very complex.
 
