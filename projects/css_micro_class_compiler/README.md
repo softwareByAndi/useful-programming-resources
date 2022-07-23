@@ -192,13 +192,104 @@ Since we cannot control which order a dictionary's elements are indexed, we need
         "1_sm": "0.7rem"
       }
     }
+    ```
 
     
 <br>
 <br>
 
+# STEP 6: add child selectors
 
+- [ ] refactor `build.json` to include a property for selectors
+  - for this step, all we care about are direct an indirect child selectors, so this can remain simple
+  - e.g.
+    ```
+    {
+      "media_queries": {...},
+      "params": {...},
+      
+      "selectors": {
+        "child": " > ",       // direct children
+        "descendents": " ",   // all children, nested or not
+      }
+    }
+    ```
+    
+    
+- [ ] the `build.json` file above should produce the following output 
 
+  - input
+    ```css
+    .text-<<{key}>> {
+      font-size: <<{{value}}>>;
+    }!!!
+    ```
+  - output
+    ```css
+    .text-lg {
+      font-size: 2rem;
+    }
+    .text-md {
+      font-size: 1rem;
+    }
+    .text-sm {
+      font-size: 0.7rem;
+    }
+    
+    .text-lg:child > * {
+      font-size: 2rem;
+    }
+    .text-md:child > *{
+      font-size: 1rem;
+    }
+    .text-sm:child > * {
+      font-size: 0.7rem;
+    }
+    
+    .text-lg:descendents * {
+      font-size: 2rem;
+    }
+    .text-md:descendents *{
+      font-size: 1rem;
+    }
+    .text-sm:descendents * {
+      font-size: 0.7rem;
+    }
+    
+    @media only screen and (min-width: 64.063em) {
+      .lg\:text-lg {
+        font-size: 2rem;
+      }
+      .lg\:text-md {
+        font-size: 1rem;
+      }
+      .lg\:text-sm {
+        font-size: 0.7rem;
+      }
+
+      .lg\:text-lg:child > * {
+        font-size: 2rem;
+      }
+      .lg\:text-md:child > *{
+        font-size: 1rem;
+      }
+      .lg\:text-sm:child > * {
+        font-size: 0.7rem;
+      }
+
+      .lg\:text-lg:descendents * {
+        font-size: 2rem;
+      }
+      .lg\:text-md:descendents *{
+        font-size: 1rem;
+      }
+      .lg\:text-sm:descendents * {
+        font-size: 0.7rem;
+      }
+    }
+    
+    @media only screen and (min-width: 40.063em) {...}
+    ```
 
 <br>
 <br>
