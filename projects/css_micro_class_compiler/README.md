@@ -16,6 +16,7 @@ each of these steps are aimed to produce a complete & functional compiler of inc
 - [ ] ability read & write files  
   - [python file handeling -- quickref.me](https://quickref.me/python#python-file-handling)  
 - [ ] read all files in a given directory & concatenate them into a single super file  
+  - [python strings -- quickref.md](https://quickref.me/python#python-strings)
   - [python read all files in given directory -- stackoverflow.com](https://stackoverflow.com/questions/26695903/python-how-to-read-all-files-in-a-directory)  
 
 <br>
