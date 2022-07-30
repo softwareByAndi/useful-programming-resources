@@ -24,7 +24,7 @@ project starter files are here: https://github.com/softwareByAndi/useful-program
 [Javascript REST api call -- stackoverflow.com](https://stackoverflow.com/questions/36975619/how-to-call-a-rest-web-service-api-from-javascript)  
 <hr>
 
-## some code examples that might be useful with a little tweaking
+## some code examples for processing asyncronous lists and dictionaries:
 
 ```javascript
 
