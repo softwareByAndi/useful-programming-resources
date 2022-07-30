@@ -29,7 +29,7 @@ project starter files are here: https://github.com/softwareByAndi/useful-program
 (
     await some_async_function(url)
 )
-  .map(obj => obj.data.name)
+  .map(obj => obj.data?.name)
   .filter(name => name !== undefined && name !== "")  // shorthand = .filter(name => name)
   .join(', ')
 ```
@@ -41,10 +41,10 @@ project starter files are here: https://github.com/softwareByAndi/useful-program
   .map(obj => obj.data)
   .filter(data => data)
   .map(async data => {
-    const extra_data = await new_query(data.url);
+    const extra_data = (await new_query(data.nested?.url)) || {};
     return {
       x = data.x,
-      y = extra_data.y
+      y = extra_data.nested?.path.y || "not found..."
     }
   })
 ```
