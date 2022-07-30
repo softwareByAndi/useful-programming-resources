@@ -24,6 +24,8 @@ project starter files are here: https://github.com/softwareByAndi/useful-program
 [Javascript REST api call -- stackoverflow.com](https://stackoverflow.com/questions/36975619/how-to-call-a-rest-web-service-api-from-javascript)  
 <hr>
 
+## some code examples that might be useful with a little tweaking
+
 ```javascript
 
 (
@@ -35,16 +37,17 @@ project starter files are here: https://github.com/softwareByAndi/useful-program
 ```
   
 ```javascript
-(
-    await some_async_function(url)
+await Promise.all(
+  Object.entries(
+      await some_async_function(url)
+  )
+    .filter(([key, value]) => value.important?.data)
+    .map(async ([key, value]) => {
+      const extra_data = (await new_query(value.important.data.nested?.url)) || {};
+      return {
+        x = value.important.data.x,
+        y = extra_data.nested?.path.y || "not found..."
+      }
+    })
 )
-  .map(obj => obj.data)
-  .filter(data => data)
-  .map(async data => {
-    const extra_data = (await new_query(data.nested?.url)) || {};
-    return {
-      x = data.x,
-      y = extra_data.nested?.path.y || "not found..."
-    }
-  })
 ```
