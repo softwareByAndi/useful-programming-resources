@@ -3,16 +3,20 @@
 ___
 
 ## useful websites  
->[quickref.me](https://quickref.me/) // recommended  
+>[developer roadmaps -- roadmap.sh](https://roadmap.sh/roadmaps) // study guides for developers
 
->[devhints.io](https://devhints.io/)  
-[frontendcheatsheets.com](https://www.frontendcheatsheets.com/)  
-[softwareByAndi/useful-programming-resources](https://github.com/softwareByAndi/useful-programming-resources)  
+>[quickref.me](https://quickref.me/) // recommended  
+[devhints.io](https://devhints.io/)  
+[shecodes -- frontendcheatsheets.com](https://www.frontendcheatsheets.com/)  
+
+>[softwareByAndi/useful-programming-resources](https://github.com/softwareByAndi/useful-programming-resources)  
 [svelte tutorial](https://svelte.dev/tutorial/basics)  
 [svelte docs](https://svelte.dev/docs)  
-[tailwindcss](https://tailwindcss.com/)  
 
->[books and notes for professionals](https://books.goalkicker.com/)
+>[tailwindcss](https://tailwindcss.com/)  
+[css-tricks.com/guides](https://css-tricks.com/guides/)
+
+>[free books and notes for professionals](https://books.goalkicker.com/)
 ___
 
 ## subject specific reference sheets  
@@ -35,18 +39,27 @@ ___
 [screen resolutions - quickref.me](https://quickref.me/resolutions)  
 
 ### css  
+> [css guides -- css-tricks.com](https://css-tricks.com/guides/)  
+
 >[css -- quickref.me](https://quickref.me/css)  
 [css -- shecodes.com](https://www.frontendcheatsheets.com/css)  
 
 >[material icons](https://fonts.google.com/icons?selected=Material+Icons)  
 [css system fonts -- devhints.io](https://devhints.io/css-system-font-stack) 
 
->[css-flexbox -- devhints.io](https://devhints.io/css-flexbox)  
-[css-grid -- devhints.io](https://devhints.io/css-grid)   
+> [css-flexbox poster -- css-tricks.com](https://css-tricks.com/wp-content/uploads/2022/02/css-flexbox-poster.png)  
+[a complete guide to css grid -- css-tricks.com](https://css-tricks.com/snippets/css/complete-guide-grid/)  
+[css-flexbox ref -- devhints.io](https://devhints.io/css-flexbox)  
+[css-grid ref -- devhints.io](https://devhints.io/css-grid)  
+[flexbox zombies game -- mastery.games](https://mastery.games/flexboxzombies/) 
 
 >[css media-queries -- .css file](https://github.com/softwareByAndi/useful-programming-resources/blob/main/reference_sheets/css_media_queries.css)  
 
 >[tailwindcss (post compiled micro classes) -- tailwindcss.com](https://tailwindcss.com/docs/flex)  
+html import tailwindcss cdn:
+``` html
+<script src="https://cdn.tailwindcss.com"></script>
+```
 
 #### css animation
 >[css animation quick reference -- quickref.me](https://quickref.me/css#css-animation)  
