@@ -1,0 +1,7 @@
+a {
+    @apply text-blue-800 font-semibold;
+}
+a:hover {
+    @apply cursor-pointer;
+}
+

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    @apply p-4 min-h-screen;
+}
+
+h1 {
+    @apply text-2xl font-extrabold tracking-wide my-2;
+}
+h2 {
+    @apply text-xl font-bold tracking-wide my-2;
+}
+
+
+.image-wrapper {
+    @apply w-full h-fit;
+}
+.image-wrapper img {
+    @apply w-full h-full object-contain;
+}
+
+figcaption {
+    @apply text-neutral-500;
+}
